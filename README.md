@@ -5,7 +5,7 @@
 [![Carthage](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)
 [![License](https://img.shields.io/badge/LICENSE-MIT-yellow.svg)](https://img.shields.io/badge/LICENSE-MIT-yellow.svg)
 [![Platform](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)](https://img.shields.io/badge/Platform-iOS-lightgrey.svg)
-[![Language](https://img.shields.io/badge/Language-Swift4-blue.svg)
+[![Language](https://img.shields.io/badge/Language-Swift4.2-blue.svg)
 
 `RegeributedTextView` is a subclass of `UITextView` that supports fully attribute string based on regular expression.
 
