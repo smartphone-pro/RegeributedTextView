@@ -1,6 +1,6 @@
 {
   "name": "RegeributedTextView",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "summary": "`RegeributedTextView` is a subclass of `UITextView` and very easy to use attribute string.",
   "description": "RegeributedTextView is a subclass of UITextView that supports attribute string based on regular expression.",
   "homepage": "https://github.com/rinov/RegeributedTextView",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/rinov/RegeributedTextView.git",
-    "tag": "0.2.0"
+    "tag": "0.2.1"
   },
   "platforms": {
     "ios": "8.0"

@@ -76,10 +76,10 @@ extension ViewController: RegeributedTextViewDelegate {
         selectedLabel.text = text
 
         // You can get the emmbeded url from values
-        if let url = values["URL"] as? String {
+        /*if let url = values["URL"] as? String {
             // e.g.
-            // UIApplication.shared.openURL(URL(string: url)!)
-        }
+            UIApplication.shared.openURL(URL(string: url)!)
+        }*/
    }
 
 }

@@ -23,16 +23,16 @@ public enum UnderlineStyle {
     
     var value: Int {
         switch self {
-        case .single:       return NSUnderlineStyle.styleSingle.rawValue
-        case .double:       return NSUnderlineStyle.styleDouble.rawValue
-        case .thick:        return NSUnderlineStyle.styleThick.rawValue
-        case .none:         return NSUnderlineStyle.styleNone.rawValue
+        case .single:       return NSUnderlineStyle.single.rawValue
+        case .double:       return NSUnderlineStyle.double.rawValue
+        case .thick:        return NSUnderlineStyle.thick.rawValue
+        case .none:         return 0
         case .byWord:       return NSUnderlineStyle.byWord.rawValue
         case .dash:         return NSUnderlineStyle.patternDash.rawValue
         case .dashDot:      return NSUnderlineStyle.patternDashDot.rawValue
         case .dashNotDot:   return NSUnderlineStyle.patternDashDotDot.rawValue
         case .dot:          return NSUnderlineStyle.patternDot.rawValue
-        case .solid:        return NSUnderlineStyle.patternSolid.rawValue
+        case .solid:        return NSUnderlineStyle(rawValue: Int(CTUnderlineStyleModifiers.patternSolid.rawValue)).rawValue
         }
     }
 }
